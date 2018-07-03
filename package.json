@@ -1,0 +1,24 @@
+{
+  "name": "karma-rjs",
+  "version": "1.0.0",
+  "description": "Testing Require.js code with Karma ==================================",
+  "main": "karma.conf.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start --single-run",
+    "watch": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.3"
+  }
+}
